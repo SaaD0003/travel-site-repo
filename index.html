@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Saad Travel</title>
@@ -8,90 +9,117 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,500;1,600;1,700;1,800&display=swap"
-      rel="stylesheet"
-    />
-    <script
-      src="https://kit.fontawesome.com/6d5eed6eac.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
-    <header class="header">
-      <nav>
-        <div class="site-title">
-          <img src="./Images/Group 40071 (2).png" alt="" />
-          <h3>Dream <span class="second-part">Travel</span></h3>
-        </div>
-        <ul>
-          <li class="nav-list1"><a href="">Home</a></li>
-          <li class="nav-list"><a href="">Packages</a></li>
-          <li class="nav-list"><a href="">Testimonial</a></li>
-          <li class="nav-list"><a href="">Blog</a></li>
-          <li class="nav-list"><a href="">Contact</a></li>
-        </ul>
-        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
-          <div class="bar1"></div>
-          <div class="bar2"></div>
-          <div class="bar3"></div>
-          <ul>
-            <li class="nav-list1"><a href="">Home</a></li>
-            <li class="nav-list"><a href="">Packages</a></li>
-            <li class="nav-list"><a href="">Testimonial</a></li>
-            <li class="nav-list"><a href="">Blog</a></li>
-            <li class="nav-list"><a href="">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/6d5eed6eac.js" crossorigin="anonymous"></script>
+</head>
 
-      <div class="banner">
-        <div class="banner-container">
-          <h1 class="banner-title">Explore Your Travel</h1>
-          <p class="banner-des">
-            Discover your next adventure with our travel website. Explore
-            diverse destinations, from vibrant cities to serene landscapes. Plan
-            your perfect getaway with expert travel guides and insider tips.
-            Find unbeatable deals on flights, hotels, and activities. Let us
-            inspire and facilitate your journey, making every trip a memorable
-            experience.
-          </p>
-          <form>
-            <input type="text" placeholder="   Where to" />
-            <select name="when">
-              <option value="sample">When</option>
-            </select>
-            <select name="type">
-              <option value="sample">Select Type</option>
-            </select>
-            <button class="btn" type="submit">
-              <i class="fa-solid fa-magnifying-glass"></i> Search
-            </button>
-          </form>
+<body>
+    <header class="header">
+        <nav>
+            <div class="site-title">
+                <img src="./Images/Group 40071 (2).png" alt="" />
+                <h3>Dream <span class="second-part">Travel</span></h3>
+            </div>
+            <ul>
+                <li class="nav-list1"><a href="">Home</a></li>
+                <li class="nav-list"><a href="">Packages</a></li>
+                <li class="nav-list"><a href="">Testimonial</a></li>
+                <li class="nav-list"><a href="">Blog</a></li>
+                <li class="nav-list"><a href="">Contact</a></li>
+            </ul>
+            <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+                <ul>
+                    <li class="nav-list1"><a href="">Home</a></li>
+                    <li class="nav-list"><a href="">Packages</a></li>
+                    <li class="nav-list"><a href="">Testimonial</a></li>
+                    <li class="nav-list"><a href="">Blog</a></li>
+                    <li class="nav-list"><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="banner">
+            <div class="banner-container">
+                <h1 class="banner-title">Explore Your Travel</h1>
+                <p class="banner-des">
+                    Discover your next adventure with our travel website. Explore
+                    diverse destinations, from vibrant cities to serene landscapes. Plan
+                    your perfect getaway with expert travel guides and insider tips.
+                    Find unbeatable deals on flights, hotels, and activities. Let us
+                    inspire and facilitate your journey, making every trip a memorable
+                    experience.
+                </p>
+                <form>
+                    <input type="text" placeholder="   Where to" />
+                    <select name="when">
+                        <option value="sample">When</option>
+                    </select>
+                    <select name="type">
+                        <option value="sample">Select Type</option>
+                    </select>
+                    <button class="btn" type="submit">
+                        <i class="fa-solid fa-magnifying-glass"></i> Search
+                    </button>
+                </form>
+            </div>
         </div>
-      </div>
     </header>
     <main>
-      <section class="popular-tour">
-        <div class="popular-content">
-            <h2 class="content-header">Our Popular Tours</h2>
-          <p>
-            Embark on a thrilling 3-day mountain tour where breathtaking
-            landscapes await. Day one kicks off with a scenic ascent, immersing
-            you in nature's wonders. Day two offers challenging trails and
-            stunning viewpoints. On the final day, descend through lush valleys,
-            capturing memories that last a lifetime. A remarkable mountain
-            adventure awaits!
-          </p>
-          <p><ul><li> The first day sets the tone for an unforgettable exploration.</li>
-          <li>Day two invites you into the heart of the mountain, where challenging trails lead to hidden gems and awe-inspiring viewpoints. </li>
-          <li>The final day descends through verdant valleys, allowing reflection on the journey's triumphs. </li></ul></p>
-          <p>This 3-day mountain tour transcends the ordinary, leaving you with indelible memories, a profound connection to the mountains, and a renewed spirit for future adventures. 
-            Prepare to be captivated by the magic of the mountains and the transformative power of this unforgettable journey.</p>
-            <button type="submit">Read More</button>
-        </div>
-        <div class="popular-img"><img src="./Images/Rectangle 4.png" alt="" /></div>
-      </section>
+        <section class="popular-tour">
+            <div class="popular-content">
+                <h2 class="content-header">Our Popular Tours</h2>
+                <p>
+                    Embark on a thrilling 3-day mountain tour where breathtaking
+                    landscapes await. Day one kicks off with a scenic ascent, immersing
+                    you in nature's wonders. Day two offers challenging trails and
+                    stunning viewpoints. On the final day, descend through lush valleys,
+                    capturing memories that last a lifetime. A remarkable mountain
+                    adventure awaits!
+                </p>
+                <p>
+                <ul>
+                    <li> The first day sets the tone for an unforgettable exploration.</li>
+                    <li>Day two invites you into the heart of the mountain, where challenging trails lead to hidden gems
+                        and awe-inspiring viewpoints. </li>
+                    <li>The final day descends through verdant valleys, allowing reflection on the journey's triumphs.
+                    </li>
+                </ul>
+                </p>
+                <p>This 3-day mountain tour transcends the ordinary, leaving you with indelible memories, a profound
+                    connection to the mountains, and a renewed spirit for future adventures.
+                    Prepare to be captivated by the magic of the mountains and the transformative power of this
+                    unforgettable journey.</p>
+                <button type="submit">Read More</button>
+            </div>
+            <div class="popular-img"><img src="./Images/Rectangle 4.png" alt="" /></div>
+        </section>
+        <section class="Choose-destination">
+            <div class="choose-des">
+                <h2>Choose Your Destination</h2>
+                <p>Choose a destination that resonates with your spirit. Follow your heart, embrace the unknown, and
+                    embark on a personalized adventure.</p>
+            </div>
+            <div class="grid-view">
+                <div class="first-row">
+                <div class="img1"><img src="./Images/Rectangle 5.png" alt=""></div>
+                <div class="img4"><img src="./Images/Rectangle 8.png" alt=""></div></div>
+                <div class="second-row">
+                <div class="img2"><img src="./Images/Rectangle 6.png" alt=""></div>
+                <div class="img3"><img src="./Images/Rectangle 7.png" alt=""></div>
+                <div class="img6"><img src="./Images/Rectangle 9.png" alt=""></div></div>
+                <div class="third-row">
+                <div class="img5"><img src="./Images/Rectangle 11.png" alt=""></div>
+                <div class="img7"><img src="./Images/Rectangle 10.png" alt=""></div></div>
+            </div>
+        </section>
+
+        
     </main>
     <footer></footer>
-  </body>
+</body>
+
 </html>

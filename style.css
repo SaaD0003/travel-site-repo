@@ -177,7 +177,6 @@ section {
   display: flex;
   gap: 5px;
   justify-content: space-between;
-  max-height: 540px;
 }
 .popular-content {
   padding: 0;
@@ -204,6 +203,67 @@ ul {
   border-radius: 8px;
   width: 174px;
   height: 52px;
+}
+.choose-des {
+  text-align: center;
+}
+.choose-des h2 {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+}
+.choose-des p {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 650px;
+  margin: auto;
+  padding-bottom: 50px;
+}
+.img1 {
+  grid-area: img1;
+}
+.img2 {
+  grid-area: img2;
+}
+.img3 {
+  grid-area: img3;
+}
+.img4 {
+  grid-area: img4;
+}
+.img5 {
+  grid-area: img5;
+}
+.img6 {
+  grid-area: img6;
+}
+.img7 {
+  grid-area: img7;
+}
+.first-row {
+  display: flex;
+  gap: 24px;
+  grid-area: first;
+}
+.second-row {
+  display: flex;
+  gap: 24px;
+  grid-area: second;
+}
+.third-row {
+  display: flex;
+  gap: 24px;
+  grid-area: third;
+}
+.grid-view {
+  display: grid;
+  grid-template-areas:
+    "first"
+    "second"
+    "third";
+  gap: 24px;
+  justify-content: center;
 }
 
 /* responsive codes */
@@ -257,6 +317,12 @@ ul {
   .popular-img img {
     width: 100%;
   }
+  .grid-view img{
+ width: 100%;
+  }
+  .grid-view, .first-row, .second-row, .third-row{
+    flex-direction: column;
+    gap: 16px;
 
-  
+  }
 }
