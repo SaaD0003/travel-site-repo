@@ -408,6 +408,50 @@ ul {
 
 }
 
+footer {
+    margin: 0;
+    padding: auto;
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+}
+
+footer .site-title {
+    padding-top: 100px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    justify-content: center;
+
+}
+
+footer p {
+    max-width: 800px;
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 20px auto;
+}
+
+footer hr {
+    margin: 20px 100px;
+}
+
+#copy-right {
+    color: #131318;
+    font-weight: 300;
+    padding-bottom: 100px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
 /* responsive codes */
 
 @media screen and (max-width: 600px) {
@@ -533,6 +577,10 @@ ul {
 
     .subscribe-container form input {
         width: 100%;
+    }
+
+    footer {
+        margin-top: 20px;
     }
 
 }
