@@ -344,6 +344,18 @@ ul {
 
 }
 
+.section1 {
+    text-align: center;
+    margin: 100px 150px;
+}
+
+.section1 .p5why {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
 .grid-container {
     display: flex;
     flex-wrap: wrap;
@@ -351,19 +363,51 @@ ul {
     gap: 24px;
 }
 
-.subscribe {
+.reviews {
+    border: 1px solid;
+    border-radius: 8px;
+    border-color: var(--primary-color);
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.review-grid {
     display: grid;
-    grid-template-columns: 1fr 1.42fr;
-    gap: 24px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+
+}
+
+.reviews-grid {
+    margin: 0 auto;
+}
+
+.btn2 {
+    width: 150px;
+    height: 50px;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.subscribe {
+    display: flex;
+    gap: 30px;
     align-items: center;
+
+
 }
 
 .subscribe-container {
-    width: 80%;
-    height: 80%;
+    width: 100%;
     border-radius: 16px;
     border: 1px solid var(--primary-color);
-    padding: 40px;
+
 }
 
 .subscribe-container h3 {
@@ -408,8 +452,28 @@ ul {
 
 }
 
+.discount {
+    position: relative;
+    text-align: center;
+    flex: 1;
+    width: 100%;
+}
+
+.transform {
+    position: absolute;
+    bottom: 47px;
+    right: -4px;
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transform: rotate(-40deg);
+    margin-right: 20px;
+    color: #FFF;
+}
+
 footer {
-    margin: 0;
+    margin-top: 100px;
     padding: auto;
     background: rgba(19, 19, 24, 0.05);
     text-align: center;
@@ -508,6 +572,7 @@ footer a {
         width: 100%;
     }
 
+    .h4why h2,
     .popular-content h2,
     .choose-des h2,
     .why-choose-content h2 {
@@ -560,23 +625,63 @@ footer a {
         margin: auto;
     }
 
-    .subscribe {
-        display: flex;
-        flex-direction: column;
+    .section1 {
         width: 100%;
         margin: auto;
     }
 
+    .review-grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .subscribe {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        width: auto;
+
+    }
+
     .subscribe-container {
-        margin-top: 40px;
+        margin: 40px 40px;
+        height: auto;
+        padding: 20px;
+
     }
 
     .subscribe img {
         width: 100%;
+
     }
 
     .subscribe-container form input {
-        width: 100%;
+        width: auto;
+    }
+
+    .transform {
+        width: 180px;
+        height: 70px;
+        margin: 0 auto;
+        padding: 10 auto;
+        margin-bottom: 15px;
+        margin-right: 5px;
+    }
+
+    .transform h3,
+    .transform p {
+        padding: 5px;
+        margin: auto;
+    }
+
+    .transform p {
+        font-size: 1rem;
+    }
+
+    .transform h3 {
+        font-size: 1.36rem;
     }
 
     footer {
